@@ -120,10 +120,8 @@ require (
 	nhooyr.io/websocket v1.8.6 // indirect
 )
 
-replace (
-	github.com/cosmos/ibc-go/v2 => github.com/informalsystems/ibc-go/v2 v2.0.3-ordered
-	github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.44.2
-	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/tecbot/gorocksdb => github.com/cosmos/gorocksdb v1.2.0
-	google.golang.org/grpc => google.golang.org/grpc v1.33.2
-)
+replace github.com/cosmos/ibc-go/v2 => github.com/informalsystems/ibc-go/v2 v2.0.3-ordered
+replace github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.44.2
+replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
+replace github.com/tecbot/gorocksdb => github.com/cosmos/gorocksdb v1.2.0
+replace google.golang.org/grpc => google.golang.org/grpc v1.33.2
