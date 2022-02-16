@@ -122,6 +122,7 @@ require (
 )
 
 replace (
+	github.com/cosmos/ibc-go/v2 => github.com/informalsystems/ibc-go/v2 v2.0.3-ordered
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	github.com/google/gofuzz => github.com/google/gofuzz v1.2.0
 	github.com/strangelove-ventures/packet-forward-middleware v1.0.1 => github.com/cosmos/packet-forward-middleware v1.0.2-0.20220303163245-fe42f76e76e4
